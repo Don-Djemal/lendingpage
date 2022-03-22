@@ -30,12 +30,13 @@ button{
 
 .body{
     position: relative;
-    width: 100%;
+    margin: 0;
+    width:  auto;
     height: 5969px;
     background: #FFFFFF;
 }
 .headers{
-    height: 100px;
+    width: 100px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -68,6 +69,8 @@ button{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-size: 24px;
+    line-height: 42px;
     
 }
 .hero-bt-WHO{
@@ -84,7 +87,7 @@ button{
     letter-spacing: 0.1em;
 }
 .hero-box-img{
-    width: 535px;
+    width: 525px;
     height: 600px;
     /* border-radius: 300px; */
     background-image: url(../img/hero\ img.png);
@@ -98,12 +101,17 @@ button{
     align-items: center;
     background-color: #62D0DF;
 }
+.hero2-box-text{
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
 
 
 
 
 .hero-box-img2{
-    width: 535px;
+    width: 525px;
     height: 604px;
     background-image: url(../img/gerl\ wait.png);
     background-repeat: no-repeat;
@@ -115,6 +123,8 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 24px;
+    line-height: 34px;
 }
 .hero4{
     display: grid;
@@ -133,6 +143,7 @@ button{
     padding: 50px;
 }
 .hero4-P{
+    width: 100% auto;
     background: #62D0DF;
     padding: 50px;
 }
@@ -149,6 +160,8 @@ button{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 260px 260px;
+    font-size: 16px;
+    line-height: 25px;
 }
 .hero5>span{
     padding: 50px;
@@ -188,19 +201,68 @@ button{
     background-image: url(../img/men\ wait.png);
     background-repeat: no-repeat;
 }
+.hero7-box-text{
+    font-size: 36px;
+    line-height: 53px;
+}
 .hero8{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color:  #22356F;
 
 }
 .hero8-img{
-    width: 580px;
+    width: 480px;
     height: 800px;
     background-image: url(../img/men\ blek.png);
     background-repeat: no-repeat;
 }
 .hero8-box-text{
     font-size: 36px;
+    text-align: center;
     color: #FFFFFF;
 }
+.hero8-box-text>span>a{
+    font-size: 16px;
+    line-height: 23px;
+    color: #62D0DF;
+}
+.hero9{
+    display:grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 380px;
+    
+    
+
+}
+.hero9-img{
+    width: 500px;
+    height: 380px;
+    background-image: url(../img/gerl\ blak.png);
+}
+.hero9-box-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    justify-items: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 23px;
+}
+.footer{
+    padding: 0;
+    margin: 0;
+    width: 100% auto;
+    height: 80px;
+    display: flex;
+    padding-left: 100px;
+    text-align: center;
+    background: #62D0DF;
+}
+@media (max-width:1220px){
+    .hero9-img{
+        width: 400px;
+    }
+}
+
